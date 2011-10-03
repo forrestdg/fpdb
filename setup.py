@@ -50,13 +50,13 @@ setup(name = 'fpdb',
     package_dir = { 'fpdb' : 'pyfpdb' },
     cmdclass = commands,
     data_files = [
-        ('/usr/share/pixmaps',
+        ('share/pixmaps',
             ['gfx/fpdb-icon.png', 'gfx/fpdb-icon2.png',
              'gfx/fpdb-cards.png'
              ]),
-        ('/usr/share/applications',
+        ('share/applications',
             ['files/fpdb.desktop']),
-        ('/usr/share/python-fpdb',
+        ('share/python-fpdb',
             ['pyfpdb/logging.conf', 'pyfpdb/Cards01.png',
              'pyfpdb/HUD_config.xml.example'
             ])
